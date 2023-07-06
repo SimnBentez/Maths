@@ -12,7 +12,5 @@ if i<0:
     n = int(input(f'Por favor seleccione el exponente que desea sumar los {i} números naturales: '))
 else:
     n = int(input(f'Por favor seleccione el exponente que desea sumar los {i} números naturales: '))
-
 l = suman(i,n)
-
 print(f'La suma de los primeros {i} números naturales elevados a {n} es: {l}')
