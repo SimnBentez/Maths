@@ -1,5 +1,5 @@
-## Este programa determina si un número es compuesto o si es primos. Además, determina por cuáles números primos está compuesto
-def primo(num):
+## This program determines if a number is composite or if it is prime. Also, determine by prime numbers is composed
+def primo(num): ## Recursion to know if a number is prime or not
     count=0
     for i in range(1,num+1):
         if num%i==0:
